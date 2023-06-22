@@ -10,12 +10,14 @@
     
 }
 body{
-    background-color: var(--cor-6);
+    background-image : url(https://stock.adobe.com/br/images/texture-or-background-of-icons-of-barrier-gestures-against-covid-19/399600202);
     color: var(--cor-4);
+    
     color: d;
     font-size: 12pt;
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     text-align:center ;
+;
 }
 title{
     font-family: 'Times New Roman', Times, serif;

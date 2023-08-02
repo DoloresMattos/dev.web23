@@ -25,14 +25,14 @@ title{
     font-family: var(--font-2);
 }
 .container{
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
     font: t;
     color: var(--cor-2);
     background-color: var(--cor-4);
-    height: 2000px;
+    height: 2100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
 h1{
@@ -42,7 +42,7 @@ h1{
 
 p{
     font-family: var(--font-2);
-    text-align: center;
+    text-align:justify;
     border: 2pt;
    margin:10px;
 }
@@ -69,4 +69,12 @@ li a {
     text-decoration: none;
 } 
  
+h4{
+    text-align: justify;
+    margin: 10px;
+}
 
+h5{
+    text-align: justify;
+    margin: 10px;
+}

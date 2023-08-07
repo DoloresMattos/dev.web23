@@ -1,50 +1,53 @@
 @charset "UTF-8";
 
-:root{
-    --cor-1:#203a8eeb;
-    --cor-2:#ffffff;
-    --cor-3:#63B5EB;
-    --cor-4:#242426;
-    --cor-5:#000;
-    --cor-6:#737476;
-   --font-1:  Georgia, 'Times New Roman', Times, serif;
-   --font-2:'Times New Roman', Times, serif;
-   --font-3: style;
+:root {
+    --cor-1: #203a8eeb;
+    --cor-2: #ffffff;
+    --cor-3: #63B5EB;
+    --cor-4: #242426;
+    --cor-5: #000;
+    --cor-6: #737476;
+    --font-1: Georgia, 'Times New Roman', Times, serif;
+    --font-2: 'Times New Roman', Times, serif;
+    --font-3: style;
 }
 
-body{
-   
-    background-color: var(--cor-1);
+body {
+
+    background-color: var(--cor-2);
 
     font-size: 12pt;
-    font-family:var(--font-1);
-    text-align:center ;
-;
+    font-family: var(--font-1);
+    text-align: center;
+    ;
 }
-title{
+
+title {
     font-family: var(--font-2);
 }
-.container{
+
+.container {
     margin-left: 400px;
     margin-right: 400px;
     font: t;
-    color: var(--cor-2);
-    background-color: var(--cor-4);
+    color: var(--cor-5);
+    background-color: var(--cor-2);
     height: 2100px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
-h1{
+h1 {
     font-family: var(--font-);
-    color:var(--cor-2) ;
+    color: var(--cor-1);
+    text-align: justify;
 }
 
-p{
+p {
     font-family: var(--font-2);
-    text-align:justify;
+    text-align: justify;
     border: 2pt;
-   margin:10px;
+    margin: 10px;
 }
 
 ul {
@@ -52,29 +55,46 @@ ul {
     margin: 2px;
     padding: 0;
     overflow: hidden;
-    background-color: var(--cor-4);
+    background-color: var(--cor-3);
 }
 
 li {
     float: left;
     margin: 2px;
+
 }
 
-li a {
-    
+ a {
+
     display: block;
-    color: var(--cor-2);
+    color: var(--cor-6);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-} 
- 
-h4{
+}
+
+h4 {
     text-align: justify;
     margin: 10px;
 }
 
-h5{
+h5 {
     text-align: justify;
     margin: 10px;
+
+
+}
+
+
+.topo{
+    background-color: var(--cor-2);
+    font-family: var(3);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+h2{
+    font-family: var(--font-);
+    color: var(--cor-1);
+    text-align: center;
 }

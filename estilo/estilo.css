@@ -35,12 +35,24 @@ title {
     height: 2100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-color: var(--cor-5);
+    animation-name: animacao;
+    animation-duration: 2s;
+    width: 1200;
+
+}
+@media(max-width:1200px){
+    .container{
+        width: 1000px;
+
+    }
 }
 
 h1 {
-    font-family: var(--font-);
+    font-family:var(--font-1) ;
     color: var(--cor-1);
     text-align: justify;
+    text-shadow: 2px 2px 2px var(--cor-6);
 }
 
 p {
@@ -61,11 +73,11 @@ ul {
 li {
     float: left;
     margin: 2px;
-    
+
 
 }
 
- a {
+a {
 
     display: block;
     color: var(--cor-5);
@@ -87,15 +99,47 @@ h5 {
 }
 
 
-.topo{
+.topo {
     background-color: var(--cor-2);
     font-family: var(3);
     display: grid;
     grid-template-columns: 200px 1fr;
+    
+
+
 }
 
-h2{
+h2 {
     font-family: var(--font-);
     color: var(--cor-1);
     text-align: center;
+}
+.container img{
+    border-radius: 3%;
+}
+
+@keyframes animacao{
+    from{background-color: var(--cor-2);}
+    to{background-color: var(--cor-3);}
+}
+
+.topo img{
+   max-width: 640px; 
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+@keyframes float {
+   
+    0%{
+        transform: translateY(0px);
+    } 
+    50%{
+        transform: translateY(-30px);
+    } 
+    100%{
+        transform: translateY(0px);
+    }
+    
+
 }
